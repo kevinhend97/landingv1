@@ -1,0 +1,202 @@
+
+.jumbotron{
+	background-image: url('img/bg2.jpg');
+	background-size: cover;
+	background-position: 0 -700px;
+	height: 500px;
+}
+
+.jumbotron .display-4{
+	margin-top: 150px;
+	color: white;
+	font-weight: 200;
+	font-size: 35px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .display-4 span{
+	font-weight: 500;
+	text-shadow: 10px 4px 29px black;
+}
+
+/*info panel*/
+.info-panel{
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	background-color: white;
+	margin-top: -100px;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+.info-panel img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.info-panel h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.info-panel p{
+	font-size: 14px;
+	color: #ACACAC;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+/*About*/
+.about-us img{
+	height: 250px;
+	width: 350px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,0.4);
+}
+
+.tombol{
+	border-radius: 600px !important;
+}
+
+.about-us .tombol{
+	margin-left: 38%;
+	margin-bottom: 10px;
+}
+
+.about-us p{
+	text-align: justify;
+	margin-bottom: 19px;
+}
+
+/*quotes*/
+.quotes h4{
+	margin-top: 30px;
+	margin-left: 20px; 
+}
+
+.quotes img{
+	margin-top: 10px;
+	margin-left: 46%;
+	height: 65px;
+	width: 65px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+/*footer*/
+.footer{
+	margin-top: 100px; 
+}
+
+.footer p{
+	color: #ACACAC;
+	font-size: 18px;
+}
+
+/*BAGIAN PRICING*/
+
+.pricing{
+	position: relative;
+}
+
+.pricing h3, .pricing h4{
+	font-family: 'heebo', sans-serif;
+	font-weight: bold;
+}
+
+.pricing p{
+	font-family:'roboto', sans-serif;
+}
+
+.pricing .title-content{
+	text-align: center;
+}
+
+.pricing img{
+	width: 400px;
+	height: 400px;
+}
+
+.pricing .projek::before{
+	content: '';
+	width: 400px;
+	height: 400px;
+	display: block;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+}
+
+.projek{
+	
+	width: 400px;
+}
+
+.projek h4{
+	text-align: right;
+}
+.pricing .description{
+	position: absolute;
+	right: 25px;
+	top: 200px;
+	color: #ffffff;
+	text-align: justify;
+	text-shadow: 3px 1px 3px rgba(0,0,0,0.6);
+	width: 350px;
+
+}
+
+.logo{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.logo img{
+	margin-right: 20px;	
+}
+
+/*AKHIR BAGIAN PRICING*/
+
+/*desktop*/
+@media (min-width: 992px) {
+	/*Navbar*/
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0 ,0 ,0 ,0.7);
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #0b63dc;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	/*jumbotron*/
+	.jumbotron{
+		margin-top: -60px;
+		height: 640px;
+	}
+
+	.jumbotron .display-4{
+		font-size: 62px;
+	}
+
+	.quotes h4{
+		margin-left: -20px;
+	}
+
+	/*Pricing*/
+	.pricing .description{
+		right: 42px;
+	}
+}
+
+
