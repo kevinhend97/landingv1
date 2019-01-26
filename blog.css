@@ -1,0 +1,23 @@
+.judul h1{
+	font-family: "Heebo", sans-serif;
+	font-weight: bolder;
+	margin-bottom: 30px;
+	text-shadow: 3px 0px 4px rgba(0,0,0,0.5);
+}
+
+.blogKonten{
+	margin-bottom: 20px;
+}
+
+a{
+	color: black;
+}
+
+.artikelThumbnail:hover{
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+}
+
+a:hover{
+	text-decoration: none;
+	color: royalblue;
+}

@@ -1,0 +1,22 @@
+/*my css mod*/
+body{
+	background-image: url("img/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -650px;
+}
+
+.content{
+	font-family: "heebo", sans-serif;
+	margin-top: 250px;
+	color: white;
+	text-shadow: 5px 4px 9px rgba(0,0,0,0.6);
+}
+
+p{
+	font-size: 30px;
+}
+
+.content a:hover{
+	text-decoration: none;
+}

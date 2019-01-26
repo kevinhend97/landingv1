@@ -6,6 +6,13 @@
 	height: 500px;
 }
 
+.judul h1{
+	font-family: "Heebo", sans-serif;
+	font-weight: bolder;
+	margin-bottom: 30px;
+	text-shadow: 3px 0px 4px rgba(0,0,0,0.5);
+}
+
 .jumbotron .display-4{
 	margin-top: 150px;
 	color: white;
@@ -86,6 +93,10 @@
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
+.tombol{
+	border-radius: 400px;
+}
+
 /*footer*/
 .footer{
 	margin-top: 100px; 
@@ -130,7 +141,6 @@
 }
 
 .projek{
-	
 	width: 400px;
 }
 
@@ -154,7 +164,7 @@
 }
 
 .logo img{
-	margin-right: 20px;	
+	margin-right: 20px;
 }
 
 /*AKHIR BAGIAN PRICING*/
